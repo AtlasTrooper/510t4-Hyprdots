@@ -8,8 +8,8 @@ replicate the setup. As of now I am using:
 - 🖥 **Kitty** → Terminal emulator  
 - 🎨 **GTK Settings** → Theming for GTK applications  
 - 📊 **Waybar** → Minimal and customizable status bar  
-- 🎨 **Theme** → [Juno Palenight](https://www.gnome-look.org/p/1357889)  
-- 🗂 **File Icons** → [Papirus-Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  
+- 🎨 **Theme** → [Juno Palenight]
+- 🗂 **File Icons** → [Papirus-Dark]
 
 ### 📂 File Management
 - 📁 **Thunar** → Lightweight file manager  
