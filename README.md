@@ -8,6 +8,8 @@ replicate the setup. As of now I am using:
 - 🖥 **Kitty** → Terminal emulator  
 - 🎨 **GTK Settings** → Theming for GTK applications  
 - 📊 **Waybar** → Minimal and customizable status bar  
+- 🎨 **Theme** → [Juno Palenight](https://www.gnome-look.org/p/1357889)  
+- 🗂 **File Icons** → [Papirus-Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  
 
 ### 📂 File Management
 - 📁 **Thunar** → Lightweight file manager  
@@ -27,7 +29,6 @@ replicate the setup. As of now I am using:
 
 ### 🎵 Music Customization
 - 🎶 **Spicetify** → Custom Spotify themes via spotify-launcher  
-
 
 
 # Tips and recommendations would be thoroughly appreciated.
