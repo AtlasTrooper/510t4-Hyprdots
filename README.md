@@ -36,3 +36,11 @@ replicate the setup. As of now I am using:
 
 
 # Tips and recommendations would be thoroughly appreciated.
+
+![WhatsApp Image 2025-08-13 at 18 21 25](https://github.com/user-attachments/assets/ec29003d-c48d-4989-a55f-af1b4ca2387c)
+
+![WhatsApp Image 2025-08-13 at 18 20 51](https://github.com/user-attachments/assets/761a9de8-9cd8-4bea-b2ba-f1cffef6d3c8)
+
+
+
+
