@@ -1,0 +1,111 @@
+ // -*- mode: jsonc -*-
+{
+    
+    // Modules configuration
+     "hyprland/workspaces": {
+        "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         "format": "{name}: {icon}",
+         "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "urgent": "",
+             "active": "",
+             "default": ""
+         }
+     },
+
+    "custom/songName": {
+        "exec": "playerctl -F -p spotify metadata --format ' {{artist}} : {{title}}'",
+        "interval": 0,
+        "return-type": "string",
+        "format": "{}",
+        "tooltip": false
+    },
+
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10,
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
+        "format-alt": "{:%A, %B %d, %Y}",
+        "on-scroll" :1
+    },
+
+    "cpu": {
+        "format": "CPU: {usage}%    ",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "RAM: {}%"
+    },
+
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    
+    
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid}   ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-disconnected": "Disconnected ⚠",
+       // "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "hyprctl dispatch exec '[float]' 'foot -e nmtui'"
+    },
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": "MUTE",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+        },
+        "on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right": "pavucontrol"
+    },
+
+    "custom/power": {
+        "format" : "⏻ ",
+		"tooltip": false,
+		"menu": "on-click",
+		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		"menu-actions": {
+			"shutdown": "shutdown",
+			"reboot": "reboot",
+			"suspend": "systemctl suspend",
+			"hibernate": "systemctl hibernate"
+		}
+    }
+}
