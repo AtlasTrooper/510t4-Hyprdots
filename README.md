@@ -23,7 +23,7 @@ replicate the setup. As of now I am using:
 ### 🌙 Idle, Lock, and Wallpapers
 - ⏳ **Hypridle** → Idle management  
 - 🔒 **Hyprlock** → Secure screen locking  
-- 🖼 **Hyprpaper** → Wallpaper management  
+- 🖼 **Hyprpaper** → Wallpaper management  (Wallpapers are stored in hypr/wallpapers)
 
 ### 📸 Screenshots & Notifications
 - 📸 **Hyprshot** → Easy screenshot tool  
@@ -33,7 +33,6 @@ replicate the setup. As of now I am using:
 - **Spotify-launcher**
 - 🎶 **Spicetify** → Custom Spotify themes via spotify-launcher
 - **Cava** → Audio Visualizer
-
 
 # Tips and recommendations would be thoroughly appreciated.
 
