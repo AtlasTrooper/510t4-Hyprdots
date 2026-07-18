@@ -1,40 +1,45 @@
-# My Hyprland Config files:
-I recemtly started daily driving linux, arch in particular. I wanted to try out hyprland and so I sought to backup my config files/dotfiles on github, but anyone who sees something they like can feel free to grab them. At some point, once I understand what I'm doing, and things start looking good, I'll add proper instructions on how to 
-replicate the setup. As of now I am using:
+# Welcome to my dotfiles
+It's been about a year since I started daily driving arch and it's got be one of the best workflow decisions I've ever made.
+While my time for customizing and tinkering has gone down drastically since starting university, I do play around with the system every once in a while. I figured the repo was long overdue for an update so without further adu, here it is!
 
-## My Current Setup
+## System Specifications and Utilities
 
-### System & Interface
--  **Kitty** → Terminal emulator  
--  **GTK Settings** → Theming for GTK applications
--  **qt6ct** → Theme settings for QT apps
--  **Waybar** → Minimal and customizable status bar  
--  **Theme** → [Juno Palenight]
--  **File Icons** → [Papirus-Dark]
-- **Overskride** → for a bluetooth GUI app
-- 
-  
-### File Management
--  **Thunar** → Lightweight file manager  
+### Desktop Environment & Core Interface
+* **Window Manager:** Hyprland
+* **Status Bar:** Waybar (minimal, custom layout)
+* **Terminal Emulator:** Kitty
+* **Application Launcher:** Rofi
+* **Interface Theming:** Juno Palenight (GTK theme via nwg-look/custom settings) with Papirus-Dark icons. Qt applications matched using qt6ct/Kvantum.
 
-###  App Launching
--  **Rofi** → Fast application launcher
-  
-###  Idle, Lock, and Wallpapers
--  **Hypridle** → Idle management  
--  **Hyprlock** → Secure screen locking  
--  **Hyprpaper** → Wallpaper management  (Wallpapers are stored in hypr/wallpapers)
+### File & System Management
+* **File Manager:** Thunar (with tumbler thumbnail support and thunar-volman)
+* **Storage & Device Mounts:** udiskie for automated media mounting
+* **System Monitors & Diagnostics:** Gnome System Monitor, ncdu, and Wireshark
+* **Network & Power:** NetworkManager (with nm-applet) and power-profiles-daemon
 
-###  Screenshots & Notifications
--  **Hyprshot** → Easy screenshot tool  
--  **notify-send** + **SwayNC** → Clean, modern notifications  
+### Environment Control
+* **Wallpaper Daemon:** Hyprpaper
+* **Idle Management:** Hypridle
+* **Screen Locker:** Hyprlock
+* **Brightness Control:** brightnessctl
 
-###  Music/ Music Customization
-- **Spotify-launcher**
-- **Spicetify** → Custom Spotify themes via spotify-launcher
-- **Cava** → Audio Visualizer
+### Media, Audio & Notifications
+* **Audio Visualizer:** Cava
+* **Music Infrastructure:** Music Player Daemon (MPD) paired with mpc and the rmpc terminal client
+* **Music Streaming:** Spotify (managed via spotify-launcher and customized via Spicetify themes)
+* **Audio Server Control:** PipeWire (with PulseAudio and ALSA emulation layers), mixed via pavucontrol
+* **Screen Capture:** Hyprshot
+* **Notification Stack:** SwayNC backed by notify-send
 
-# Tips and recommendations would be thoroughly appreciated.
+### Development Environments & Toolchains
+* **Text Editors & IDEs:** Custom terminal-focused Neovim setups, Visual Studio Code (code-oss), and the Arduino IDE for embedded microcontroller development.
+* **Low-Level Tooling & Compilation:** GCC/Clang development suites (base-devel, bear), NASM assembler, and Valgrind debug engines.
+* **Emulation & Virtualization:** QEMU (base/desktop architectures) along with Bochs (integrated with GDB support) for operating system testing and kernel debugging.
+* **Version Control:** Git supplemented by the lazygit terminal interface.
+
+## Gallery
+
+# Tips and recommendations are always appreciated.
 
 ![Setup](assets/screenshots/setup.jpeg)
 
