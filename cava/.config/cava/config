@@ -1,13 +1,13 @@
 [general]
 framerate = 60
-bars = 60
+bars = 30
 autosens = 1
 sensitivity = 100
 lower_cutoff_freq = 50
 upper_cutoff_freq = 10000
 
 [input]
-method = pulse
+method = pipewire
 # Change to your actual monitor source
 source = auto
 
