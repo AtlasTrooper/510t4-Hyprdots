@@ -41,7 +41,9 @@ While my time for customizing and tinkering has gone down drastically since star
 
 # Tips and recommendations are always appreciated.
 
-![Setup](assets/screenshots/setup.jpeg)
+![Setup](assets/screenshots/home.jpg)
+
+![Main project](assets/screenshots/editor.jpg)
 
 ![WhatsApp Image 2025-08-13 at 18 21 25](https://github.com/user-attachments/assets/ec29003d-c48d-4989-a55f-af1b4ca2387c)
 
